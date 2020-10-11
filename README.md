@@ -1,6 +1,11 @@
-# vscode-ms Visual Studio Code (Microsoft Version)
+# Visual Studio Code (Microsoft Version)
 
 This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
+
+## Details
+
+Packaged Version: 1.50.0
+
 
 ## But Why?
 
