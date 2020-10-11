@@ -4,7 +4,7 @@ This is a official binary distribution from [*Microsoft*](https://code.visualstu
 
 ## Details
 
-Packaged Version: 1.50.0
+Packaged Version: [1.50.0](https://github.com/sidbelbase/vscode-ms/releases/tag/1.50.0)
 
 
 ## But Why?
