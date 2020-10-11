@@ -46,5 +46,6 @@ sudo eopkg remove-repo sidbelbase
 
 You can also download the [**eopkg file**](https://github.com/sidbelbase/vscode-ms/releases/download/1.50.0/vscode-ms-1.50.0-4-1-x86_64.eopkg), if adding this repository doesn't help.
 
+<br>
 
-Packaged with ❤️ in Nepal.
+### Packaged with ❤️ in Nepal.
