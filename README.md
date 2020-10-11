@@ -1,10 +1,10 @@
-# vscode-ms
+# vscode-ms Visual Studio Code (Microsoft Version)
 
-visual-studio-code binary build for [*Solus Distribution*](https://getsol.us/home/) from [*Microsoft*](https://code.visualstudio.com/)
+This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
 
-## Why this package?
+## But Why?
 
-The vscode in the official Solus repo is an oss build made directly from the source. It's codenamed as `code-oss`. There are some proprietary features & APIs that are not available in that open-source version. Hence this package, with **unlimited power** for solus users.
+The vscode available in the official Solus repository is an unofficial build made directly from the github. It's codenamed as `code-oss`. There are some proprietary features & APIs that are not accessible/available in that open-source version. Hence this package, with **unlimited power** for solus users.
 
 # Getting Started
 
@@ -36,6 +36,10 @@ sudo eopkg rmf vscode-ms
 ```bash
 sudo eopkg remove-repo sidbelbase
 ```
+
+## Problem adding this Repository?
+
+Download the **eopkg** file from the `vscode-ms` folder, if adding this repository doesn't help.
 
 
 Packaged with ❤️ in Nepal.
