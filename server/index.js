@@ -1,16 +1,20 @@
 const express = require('express')
 const serveIndex = require('serve-index');
+const path = require('path')
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Hey wanderer!')
-})
+const toserve = path.join(__dirname + '../../repo/')
 
-if (process.env.NODE_ENV === 'production') {
-  app.use('/repo', express.static(__dirname + '../../packages/'));
-  app.use('/repo', serveIndex(__dirname + '../../packages/', { 'icons': true }));
-}
+//  Serve index.html
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname + '/index.html'))
+);
+
+// Serve static files & index
+app.use('/repo', express.static(toserve));
+app.use('/repo', serveIndex(toserve, { 'icons': true }));
+
 
 const port = process.env.PORT || 5000;
 
