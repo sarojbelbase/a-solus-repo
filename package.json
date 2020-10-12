@@ -1,0 +1,20 @@
+{
+  "name": "solus",
+  "version": "1.0.5",
+  "description": "solus packages that are not available in official repo",
+  "main": "index.js",
+  "repository": "https://github.com/sidbelbase/vscode-ms.git",
+  "author": "Siddharth Belbase <siddharthbelbase@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
