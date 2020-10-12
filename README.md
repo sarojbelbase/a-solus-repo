@@ -18,7 +18,7 @@ The vscode available in the official Solus repository is an unofficial build mad
 ### 1.1 Adding this Repository
 
 ```bash
-sudo eopkg add-repo sidbelbase https://solus.now.sh/eopkg-index.xml
+sudo eopkg add-repo sidbelbase https://asolusrepo.herokuapp.com/repo/eopkg-index.xml.xz
 ```
 
 
@@ -44,7 +44,7 @@ sudo eopkg remove-repo sidbelbase
 
 # Problem adding this Repository?
 
-#### You could too download the [**eopkg file**](https://solus.now.sh/package/vscode-ms-1.50.0-4-1-x86_64.eopkg), if adding this repository doesn't help.
+#### You could too download the [**eopkg file**](https://asolusrepo.herokuapp.com/repo/package/vscode-ms-1.50.0-4-1-x86_64.eopkg), if adding this repository doesn't help.
 
 <br>
 
