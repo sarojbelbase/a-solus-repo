@@ -53,11 +53,11 @@ Please report an [issue here](https://github.com/sidbelbase/solus/issues/new).
 
 ## Similar Repositories
 
-#### [Solus-Community](https://github.com/cantalupo555/repo-solus)
-#### [Solus-Extra-Repo](https://github.com/algent-al/solus-extra-repo)
-#### [Solus-Personal-Repo](https://github.com/Christoph3PT/solus-personal-repo)
-#### [Solus-Repo](https://github.com/canoi12/solus-repo)
-#### [Solus-Third-Party_Repo](https://gitlab.com/devil505/solus-3rd-party-repo)
+*  [Solus-Repo](https://github.com/canoi12/solus-repo) by canoi12
+*  [Solus-Extra-Repo](https://github.com/algent-al/solus-extra-repo) by algent-al
+*  [Solus-Community](https://github.com/cantalupo555/repo-solus) by cantalupo555
+*  [Solus-Third-Party_Repo](https://gitlab.com/devil505/solus-3rd-party-repo) by devil505
+*  [Solus-Personal-Repo](https://github.com/Christoph3PT/solus-personal-repo) by Christoph3PT
 
 
 <br>
