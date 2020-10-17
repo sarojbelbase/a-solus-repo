@@ -12,8 +12,8 @@ app.get('/', (req, res) =>
 );
 
 // Serve static files & index
-app.use('/repo', express.static(toserve));
-app.use('/repo', serveIndex(toserve, { 'icons': true }));
+app.use('/packages', express.static(toserve));
+app.use('/packages', serveIndex(toserve, { 'icons': true }));
 
 
 const port = process.env.PORT || 5000;
