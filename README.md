@@ -4,18 +4,16 @@ Just another solus repository that tries.
 
 ## Available Packages
 
+#### Visual Studio Code (Microsoft Version)
+
 | Package Name | Version | Last Updated | Whats New?
 |-|-|-|-|
 | visual-studio-code | 1.50.1 | 17th October | [Changelogs](https://github.com/microsoft/vscode/releases/tag/1.50.1) |
 
-#### Visual Studio Code (Microsoft Version)
+#### But Why?
 
-This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
+This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/). The vscode available in the official Solus repository is an unofficial build made directly from the github. It's codenamed as `code-oss`. There are some proprietary features & APIs that are not accessible/available in that open-source version. Hence this package, with **unlimited power** for solus users.
 
-
-## But Why?
-
-The vscode available in the official Solus repository is an unofficial build made directly from the github. It's codenamed as `code-oss`. There are some proprietary features & APIs that are not accessible/available in that open-source version. Hence this package, with **unlimited power** for solus users.
 
 # Getting Started
 
@@ -47,7 +45,7 @@ sudo eopkg rmf visual-studio-code
 sudo eopkg remove-repo sidbelbase
 ```
 
-## Wanna Say Thanks?
+## Wanna Have Talk?
 
 Please report an [issue here](https://github.com/sidbelbase/a-solus-repo/issues/new).
 
