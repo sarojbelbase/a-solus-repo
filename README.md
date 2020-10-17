@@ -4,9 +4,9 @@ This is a official binary distribution from [*Microsoft*](https://code.visualstu
 
 ## Packages
 
-| Package Name | Version | Last Updated |
-|-|-|-|
-| visual-studio-code | 1.50.1 | October 17th |
+| Package Name | Version | Last Updated | Whats New?
+|-|-|-|-|
+| visual-studio-code | 1.50.1 | 17th October | [Changelogs](https://github.com/microsoft/vscode/releases/tag/1.50.1) |
 
 
 ## But Why?
