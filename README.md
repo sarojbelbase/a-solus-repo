@@ -1,14 +1,14 @@
 # A Solus Repository
 
-### Just another solus repository that tries.
+Just another solus repository that tries.
 
-# Available Packages
+## Available Packages
 
 | Package Name | Version | Last Updated | Whats New?
 |-|-|-|-|
 | visual-studio-code | 1.50.1 | 17th October | [Changelogs](https://github.com/microsoft/vscode/releases/tag/1.50.1) |
 
-### Visual Studio Code (Microsoft Version)
+#### Visual Studio Code (Microsoft Version)
 
 This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
 
@@ -26,7 +26,6 @@ The vscode available in the official Solus repository is an unofficial build mad
 ```bash
 sudo eopkg add-repo sidbelbase https://asolusrepo.herokuapp.com/packages/eopkg-index.xml.xz
 ```
-
 
 ### 1.2 Installing package
 
@@ -52,9 +51,6 @@ sudo eopkg remove-repo sidbelbase
 
 Please report an [issue here](https://github.com/sidbelbase/a-solus-repo/issues/new).
 
-
-<br>
-
 ## Similar Repositories
 
 *  [Solus-Repo](https://github.com/canoi12/solus-repo) by canoi12
@@ -62,8 +58,5 @@ Please report an [issue here](https://github.com/sidbelbase/a-solus-repo/issues/
 *  [Solus-Community](https://github.com/cantalupo555/repo-solus) by cantalupo555
 *  [Solus-Third-Party_Repo](https://gitlab.com/devil505/solus-3rd-party-repo) by devil505
 *  [Solus-Personal-Repo](https://github.com/Christoph3PT/solus-personal-repo) by Christoph3PT
-
-
-<br>
 
 ### Packaged with ❤️ in Nepal.
