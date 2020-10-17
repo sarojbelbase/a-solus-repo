@@ -44,15 +44,21 @@ sudo eopkg rmf visual-studio-code
 sudo eopkg remove-repo sidbelbase
 ```
 
-# Problem adding this Repository?
+## Wanna Say Thanks?
 
-#### You could too download the [**eopkg file**](https://asolusrepo.herokuapp.com/packages/visual-studio-code/visual-studio-code-1.50.1-5-1-x86_64), if adding this repository doesn't help.
+Please report an [issue here](https://github.com/sidbelbase/solus/issues/new).
+
 
 <br>
 
-# Inspiration
+## Similar Repositories
 
-#### [Arch Linux Package](https://aur.archlinux.org/packages/visual-studio-code-bin/)
+#### [Solus-Community](https://github.com/cantalupo555/repo-solus)
+#### [Solus-Extra-Repo](https://github.com/algent-al/solus-extra-repo)
+#### [Solus-Personal-Repo](https://github.com/Christoph3PT/solus-personal-repo)
+#### [Solus-Repo](https://github.com/canoi12/solus-repo)
+#### [Solus-Third-Party_Repo](https://gitlab.com/devil505/solus-3rd-party-repo)
+
 
 <br>
 
