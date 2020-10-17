@@ -1,12 +1,16 @@
-# Visual Studio Code (Microsoft Version)
+# A Solus Repository
 
-This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
+### Just another solus repository that tries.
 
-## Packages
+# Available Packages
 
 | Package Name | Version | Last Updated | Whats New?
 |-|-|-|-|
 | visual-studio-code | 1.50.1 | 17th October | [Changelogs](https://github.com/microsoft/vscode/releases/tag/1.50.1) |
+
+### Visual Studio Code (Microsoft Version)
+
+This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
 
 
 ## But Why?
@@ -46,7 +50,7 @@ sudo eopkg remove-repo sidbelbase
 
 ## Wanna Say Thanks?
 
-Please report an [issue here](https://github.com/sidbelbase/solus/issues/new).
+Please report an [issue here](https://github.com/sidbelbase/a-solus-repo/issues/new).
 
 
 <br>
