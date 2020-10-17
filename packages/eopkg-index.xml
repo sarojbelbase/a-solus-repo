@@ -1,0 +1,71 @@
+<PISI>
+    <Package>
+        <Name>visual-studio-code</Name>
+        <Summary xml:lang="en">Editor for building and debugging modern web and cloud applications</Summary>
+        <Description xml:lang="en">Visual Studio Code (official binary) is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.</Description>
+        <PartOf>programming.ide</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="30">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="18">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="94">libgtk-3</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="45">libcairo</Dependency>
+            <Dependency releaseFrom="22">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="12">libxkbfile</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="17">libsecret</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="24">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency>git</Dependency>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+        <Replaces>
+            <Package>code-oss</Package>
+        </Replaces>
+        <History>
+            <Update release="5">
+                <Date>2020-10-17</Date>
+                <Version>1.50.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Siddharth Belbase</Name>
+                <Email>sidbelbase@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>259354676</InstalledSize>
+        <PackageSize>73380602</PackageSize>
+        <PackageHash>0312217d22765493be8c6e9ddc25b0374af58e0b</PackageHash>
+        <PackageURI>visual-studio-code/visual-studio-code-1.50.1-5-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>visual-studio-code</Name>
+            <Packager>
+                <Name>Siddharth Belbase</Name>
+                <Email>sidbelbase@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>

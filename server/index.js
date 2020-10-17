@@ -4,7 +4,7 @@ const path = require('path')
 
 const app = express();
 
-const toserve = path.join(__dirname + '../../repo/')
+const toserve = path.join(__dirname + '../../packages/')
 
 //  Serve index.html
 app.get('/', (req, res) =>

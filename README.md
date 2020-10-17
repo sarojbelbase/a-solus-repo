@@ -2,9 +2,11 @@
 
 This is a official binary distribution from [*Microsoft*](https://code.visualstudio.com/) made for [*Solus Distribution*](https://getsol.us/home/).
 
-## Details
+## Packages
 
-Packaged Version: [1.50.0](https://github.com/sidbelbase/vscode-ms/releases/tag/1.50.0)
+| Package Name | Version | Last Updated |
+|-|-|-|
+| visual-studio-code | 1.50.1 | October 17th |
 
 
 ## But Why?
@@ -18,14 +20,14 @@ The vscode available in the official Solus repository is an unofficial build mad
 ### 1.1 Adding this Repository
 
 ```bash
-sudo eopkg add-repo sidbelbase https://asolusrepo.herokuapp.com/repo/eopkg-index.xml.xz
+sudo eopkg add-repo sidbelbase https://asolusrepo.herokuapp.com/packages/eopkg-index.xml.xz
 ```
 
 
 ### 1.2 Installing package
 
 ```bash
-sudo eopkg install vscode-ms
+sudo eopkg install visual-studio-code
 ```
 
 ## Removing
@@ -33,7 +35,7 @@ sudo eopkg install vscode-ms
 ### 2.1 Removing this package
 
 ```bash
-sudo eopkg rmf vscode-ms
+sudo eopkg rmf visual-studio-code
 ```
 
 ### 2.2 Removing this Repository
@@ -44,7 +46,7 @@ sudo eopkg remove-repo sidbelbase
 
 # Problem adding this Repository?
 
-#### You could too download the [**eopkg file**](https://asolusrepo.herokuapp.com/repo/package/vscode-ms-1.50.0-4-1-x86_64.eopkg), if adding this repository doesn't help.
+#### You could too download the [**eopkg file**](https://asolusrepo.herokuapp.com/packages/visual-studio-code/visual-studio-code-1.50.1-5-1-x86_64), if adding this repository doesn't help.
 
 <br>
 
