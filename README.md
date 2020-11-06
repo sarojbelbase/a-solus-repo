@@ -8,7 +8,7 @@ Just another solus repository that tries.
 
 | Package Name | Version | Last Updated | Whats New?
 |-|-|-|-|
-| visual-studio-code | 1.50.1 | 17th October | [Changelogs](https://github.com/microsoft/vscode/releases/tag/1.50.1) |
+| visual-studio-code | 1.51.0 | 6th November | [Changelogs](https://github.com/microsoft/vscode/releases/tag/1.51.0) |
 
 #### But Why?
 
