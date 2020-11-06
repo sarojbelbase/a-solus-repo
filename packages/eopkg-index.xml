@@ -17,7 +17,7 @@
             <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="94">libgtk-3</Dependency>
+            <Dependency releaseFrom="95">libgtk-3</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="46">libnss</Dependency>
@@ -43,9 +43,9 @@
             <Package>code-oss</Package>
         </Replaces>
         <History>
-            <Update release="5">
-                <Date>2020-10-17</Date>
-                <Version>1.50.1</Version>
+            <Update release="6">
+                <Date>2020-11-06</Date>
+                <Version>1.51.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Siddharth Belbase</Name>
                 <Email>sidbelbase@gmail.com</Email>
@@ -55,10 +55,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>259354676</InstalledSize>
-        <PackageSize>73380602</PackageSize>
-        <PackageHash>0312217d22765493be8c6e9ddc25b0374af58e0b</PackageHash>
-        <PackageURI>visual-studio-code/visual-studio-code-1.50.1-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>255003755</InstalledSize>
+        <PackageSize>72998455</PackageSize>
+        <PackageHash>71b7b6e18c98983de60a0788435ef7a3991ea9a9</PackageHash>
+        <PackageURI>visual-studio-code/visual-studio-code-1.51.0-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>visual-studio-code</Name>

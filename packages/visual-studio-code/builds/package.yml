@@ -1,8 +1,8 @@
 name       : visual-studio-code
-version    : 1.50.1
-release    : 5
+version    : 1.51.0
+release    : 6
 source     :
-    - https://vscode-update.azurewebsites.net/1.50.1/linux-x64/stable : 1d8449102bcb0e78f253bd508d880b179048ad2a9066e113fa23b3188821eb56
+    - https://vscode-update.azurewebsites.net/1.51.0/linux-x64/stable : e08e5826afdb838cb3a04d9f13d2161f3d7219884b85fcfe133401fbb415dda1
     - https://gist.githubusercontent.com/sidbelbase/803e015f4b8d4cd5aacaf07ae12c58e7/raw/578de0b7b225e1f2fe30f85bafafb24571dcc85f/vscode.desktop : bc5f1dfefcc6ab354282ccf3fa1f8cd13aabdc87b95af4677bd75f56005124df
     - https://gist.githubusercontent.com/sidbelbase/803e015f4b8d4cd5aacaf07ae12c58e7/raw/578de0b7b225e1f2fe30f85bafafb24571dcc85f/vscode-url-handler.desktop : a6a05be7d6c2757ccbc8bd2586f882c738db707a8dbd5a3c57e16c37ba1bfea9
 license    :
