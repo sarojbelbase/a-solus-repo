@@ -1,1 +1,1 @@
-include $(HOME)/SolusBuilds/Makefile.common
+include ../Makefile.common

@@ -1,44 +1,41 @@
-name       : visual-studio-code
-version    : 1.52.0
-release    : 7
-source     :
-    - https://vscode-update.azurewebsites.net/1.52.0/linux-x64/stable : b7de5e6d4443ceb63661ea9d2ee321b741e163695a72eec34bbc2c701e7e84e4
-    - https://gist.githubusercontent.com/sidbelbase/803e015f4b8d4cd5aacaf07ae12c58e7/raw/578de0b7b225e1f2fe30f85bafafb24571dcc85f/vscode.desktop : bc5f1dfefcc6ab354282ccf3fa1f8cd13aabdc87b95af4677bd75f56005124df
-    - https://gist.githubusercontent.com/sidbelbase/803e015f4b8d4cd5aacaf07ae12c58e7/raw/578de0b7b225e1f2fe30f85bafafb24571dcc85f/vscode-url-handler.desktop : a6a05be7d6c2757ccbc8bd2586f882c738db707a8dbd5a3c57e16c37ba1bfea9
-license    :
-    - MIT
-component  : programming.ide
-summary    : Editor for building and debugging modern web and cloud applications
-description: |
-    Visual Studio Code (official binary) is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.
-builddeps  :
-    - pkgconfig(alsa)
-    - pkgconfig(gtk+-3.0)
-    - pkgconfig(libsecret-1)
-    - pkgconfig(xcomposite)
-    - pkgconfig(xcursor)
-    - pkgconfig(xkbfile)
-    - pkgconfig(xrandr)
-    - pkgconfig(xscrnsaver)
-    - pkgconfig(xtst)
-rundeps    :
-    - git
-    - libxscrnsaver
-    - nodejs
-replaces   :
-    - code-oss
-install    : |
-    export vsdir=/opt/vscode
-    install -dm00755 $installdir/usr/share/licenses/vscode
-    install -dm00755 $installdir/$vsdir
-    install -dm00755 $installdir/usr/bin
-    install -dm00755 $installdir/usr/share/applications
-    install -dm00755 $installdir/usr/share/icons
+name: visual-studio-code
+version: 1.53.0
+release: 8
+source:
+  - https://vscode-update.azurewebsites.net/1.53.0/linux-x64/stable: 4acade7ae629a271b2a0c3da82c9aa9c5599f15ae80fa0828bbbdaed34818b1f
+  - https://gist.githubusercontent.com/sidbelbase/803e015f4b8d4cd5aacaf07ae12c58e7/raw/578de0b7b225e1f2fe30f85bafafb24571dcc85f/vscode.desktop: bc5f1dfefcc6ab354282ccf3fa1f8cd13aabdc87b95af4677bd75f56005124df
+  - https://gist.githubusercontent.com/sidbelbase/803e015f4b8d4cd5aacaf07ae12c58e7/raw/578de0b7b225e1f2fe30f85bafafb24571dcc85f/vscode-url-handler.desktop: a6a05be7d6c2757ccbc8bd2586f882c738db707a8dbd5a3c57e16c37ba1bfea9
+license: MIT
+component: programming.ide
+summary: Editor for building and debugging modern web and cloud applications
+description: Visual Studio Code (official binary) is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.
+builddeps:
+  - pkgconfig(alsa)
+  - pkgconfig(gtk+-3.0)
+  - pkgconfig(libsecret-1)
+  - pkgconfig(xcomposite)
+  - pkgconfig(xcursor)
+  - pkgconfig(xkbfile)
+  - pkgconfig(xrandr)
+  - pkgconfig(xscrnsaver)
+  - pkgconfig(xtst)
+rundeps:
+  - git
+  - libxscrnsaver
+  - nodejs
+replaces: code-oss
+install: |
+  export vsdir=/opt/vscode
+  install -dm00755 $installdir/usr/share/licenses/vscode
+  install -dm00755 $installdir/$vsdir
+  install -dm00755 $installdir/usr/bin
+  install -dm00755 $installdir/usr/share/applications
+  install -dm00755 $installdir/usr/share/icons
 
-    install -Dm00644 $workdir/resources/app/LICENSE.rtf $installdir/usr/share/licenses/vscode/LICENSE.rtf
-    install -Dm00644 $workdir/resources/app/resources/linux/code.png $installdir/usr/share/icons/vscode.png
-    install -Dm00644 $sources/vscode.desktop $installdir/usr/share/applications/vscode.desktop
-    install -Dm00644 $sources/vscode-url-handler.desktop $installdir/usr/share/applications/vscode-url-handler.desktop
+  install -Dm00644 $workdir/resources/app/LICENSE.rtf $installdir/usr/share/licenses/vscode/LICENSE.rtf
+  install -Dm00644 $workdir/resources/app/resources/linux/code.png $installdir/usr/share/icons/vscode.png
+  install -Dm00644 $sources/vscode.desktop $installdir/usr/share/applications/vscode.desktop
+  install -Dm00644 $sources/vscode-url-handler.desktop $installdir/usr/share/applications/vscode-url-handler.desktop
 
-    cp -R $workdir/* $installdir/$vsdir/
-    ln -s $vsdir/bin/code $installdir/usr/bin/code
+  cp -R $workdir/* $installdir/$vsdir/
+  ln -s $vsdir/bin/code $installdir/usr/bin/code
