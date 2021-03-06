@@ -13,11 +13,11 @@
             <Dependency releaseFrom="52">libgcc</Dependency>
             <Dependency releaseFrom="18">libnspr</Dependency>
             <Dependency releaseFrom="27">libxcb</Dependency>
-            <Dependency releaseFrom="36">pango</Dependency>
-            <Dependency releaseFrom="98">libgtk-3</Dependency>
+            <Dependency releaseFrom="37">pango</Dependency>
+            <Dependency releaseFrom="99">libgtk-3</Dependency>
             <Dependency releaseFrom="12">libxfixes</Dependency>
             <Dependency releaseFrom="24">at-spi2</Dependency>
-            <Dependency releaseFrom="67">glib2</Dependency>
+            <Dependency releaseFrom="68">glib2</Dependency>
             <Dependency releaseFrom="48">libnss</Dependency>
             <Dependency releaseFrom="46">libcairo</Dependency>
             <Dependency releaseFrom="24">alsa-lib</Dependency>
@@ -40,9 +40,9 @@
             <Package>code-oss</Package>
         </Replaces>
         <History>
-            <Update release="6">
-                <Date>2021-02-05</Date>
-                <Version>1.53.0</Version>
+            <Update release="9">
+                <Date>2021-03-06</Date>
+                <Version>1.54.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Siddharth Belbase</Name>
                 <Email>sidbelbase@gmail.com</Email>
@@ -52,10 +52,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>258761866</InstalledSize>
-        <PackageSize>77276584</PackageSize>
-        <PackageHash>6e34b5ae2978c1b8b16a7fa84ce0ca78ed980613</PackageHash>
-        <PackageURI>visual-studio-code/visual-studio-code-1.53.0-8-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>266669612</InstalledSize>
+        <PackageSize>80289431</PackageSize>
+        <PackageHash>18abca9e2ec5b9085f80e57cfdd7247162da72f1</PackageHash>
+        <PackageURI>visual-studio-code/visual-studio-code-1.54.1-9-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>visual-studio-code</Name>
